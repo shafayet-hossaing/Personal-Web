@@ -33,14 +33,14 @@ p{
     border-left: 5px solid red;
     padding-left: 10px
 }
-.left-area{
+#first-section .left-area{
     width: 50%;
 }
-.right-area{
+#first-section .right-area{
     text-align: center;
     width: 50%;
 }
-.right-area img{
+#first-section .right-area img{
     width: 70%;
 }
 /* Second Section */
@@ -71,7 +71,55 @@ p{
 #second-section .cards .card img{
     width: 50%;
 }
+/* Third Section */
+/* #third-section{
+    background-image: url(Images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 50px;
+    top: 20%;
+    background-size: 20%;
+} */
+.third-section{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+#third-section .right-area h1{
+    font-size:45px;
+}
+.third-section .left-area{
+    width: 40%;
+}
+.third-section .left-area img{
+    width: 100%;
+}
+.third-section .right-area{
+    width: 60%;
+    padding-left: 80px;
+}
 /* Footer */
+/* Fourth Section */
+.fourth-section{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+#fourth-section .right-area h1{
+    font-size:45px;
+}
+.fourth-section .left-area{
+    width: 60%;
+}
+.fourth-section .right-area img{
+    width: 100%;
+}
+.fourth-section .right-area{
+    width: 40%;
+    padding-left: 80px;
+}
 .footer{
     text-align: center;
     padding: 30px;
